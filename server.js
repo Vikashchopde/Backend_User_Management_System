@@ -10,7 +10,7 @@ dotenv.config();
 // middleware
 const app = express();
 app.use(cors({
-  origin: "*",
+  origin: "https://frontend-lemon-sigma-28.vercel.app",
 }));
 app.use(morgan("dev"));
 app.use(express.json());
